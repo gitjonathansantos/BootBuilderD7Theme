@@ -1,0 +1,230 @@
+@font-face {
+    font-family: 'MiloOT_gdi';
+    src: url('/sites/all/themes/engineering/fonts/MiloOT_gdi.eot');
+    src: url('/sites/all/themes/engineering/fonts/MiloOT_gdi.eot') format('embedded-opentype'),
+    url('/sites/all/themes/engineering/fonts/MiloOT_gdi.woff2') format('woff2'),
+    url('/sites/all/themes/engineering/fonts/MiloOT_gdi.woff') format('woff'),
+    url('/sites/all/themes/engineering/fonts/MiloOT_gdi.ttf') format('truetype'),
+    url('/sites/all/themes/engineering/fonts/MiloOT_gdi.svg#MiloOT_gdi') format('svg');
+}
+
+@font-face {
+    font-family: 'MiloOTExlig_gdi';
+    src: url('/fonts/MiloOTExlig_gdi.eot');
+    src: url('/fonts/MiloOTExlig_gdi.eot') format('embedded-opentype'),
+    url('/fonts/MiloOTExlig_gdi.woff2') format('woff2'),
+    url('/fonts/MiloOTExlig_gdi.woff') format('woff'),
+    url('/fonts/MiloOTExlig_gdi.ttf') format('truetype'),
+    url('/fonts/MiloOTExlig_gdi.svg#MiloOTExlig_gdi') format('svg');
+}
+
+@font-face {
+    font-family: 'MiloOTLight_gdi';
+    src: url('/fonts/MiloOTLight_gdi.eot');
+    src: url('/fonts/MiloOTLight_gdi.eot') format('embedded-opentype'),
+    url('/fonts/MiloOTLight_gdi.woff2') format('woff2'),
+    url('/fonts/MiloOTLight_gdi.woff') format('woff'),
+    url('/fonts/MiloOTLight_gdi.ttf') format('truetype'),
+    url('/fonts/MiloOTLight_gdi.svg#MiloOTLight_gdi') format('svg');
+}
+
+@font-face {
+    font-family: 'MiloSerifOT_gdi';
+    src: url('/fonts/MiloSerifOT_gdi.eot');
+    src: url('/fonts/MiloSerifOT_gdi.eot') format('embedded-opentype'),
+    url('/fonts/MiloSerifOT_gdi.woff2') format('woff2'),
+    url('/fonts/MiloSerifOT_gdi.woff') format('woff'),
+    url('/fonts/MiloSerifOT_gdi.ttf') format('truetype'),
+    url('/fonts/MiloSerifOT_gdi.svg#MiloSerifOT_gdi') format('svg');
+}
+
+@font-face {
+    font-family: 'MiloSerifOTMediIta_gdi';
+    src: url('/fonts/MiloSerifOTMediIta_gdi.eot');
+    src: url('/fonts/MiloSerifOTMediIta_gdi.eot') format('embedded-opentype'),
+    url('/fonts/MiloSerifOTMediIta_gdi.woff2') format('woff2'),
+    url('/fonts/MiloSerifOTMediIta_gdi.woff') format('woff'),
+    url('/fonts/MiloSerifOTMediIta_gdi.ttf') format('truetype'),
+    url('/fonts/MiloSerifOTMediIta_gdi.svg#MiloSerifOTMediIta_gdi') format('svg');
+}
+
+
+
+
+.container {
+    width: 100%;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.page {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;	
+    padding-left: 15px;
+    padding-right: 15px;	
+}
+/* ============================================================
+  SECTIONS
+============================================================ */
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+}
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 40px 0;
+}
+section.module.parallax {
+  padding: 240px 0;
+}
+section.module.parallax h1 {
+  color: #1e1e1e;
+  font-size: 48px;
+  line-height: 1;
+  font-weight: 700;
+  text-align: center;
+}
+section.module.parallax-0 {
+	background-image:url(../images/parallax/home.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+section.module.parallax-1 {
+	background-image:url(../images/parallax/news.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+section.module.parallax-2 {
+	background-image:url(../images/parallax/about.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+section.module.parallax-3 {
+	background-image:url(../images/parallax/k12.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+section.module.parallax-4 {
+	background-image:url(../images/parallax/aftercollege.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+section.module.parallax-5 {
+	background-image:url(../images/parallax/alumni.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+section.module.parallax-6 {
+	background-image:url(../images/parallax/undergrad.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+section.module.parallax-7 {
+	background-image:url(../images/parallax/faculty.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+section.module.parallax-8 {
+	background-image:url(../images/parallax/industry.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+section.module.parallax-9 {
+	background-image:url(../images/parallax/future.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+section.module.parallax-10 {
+	background-image:url(../images/parallax/current.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+section.module.parallax-11 {
+	background-image:url(../images/parallax/grad.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+section.module.parallax-12 {
+	background-image:url(../images/parallax/research.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 28px;
+  }
+  section.module p {
+    font-size: 15px;
+	line-height:200%;
+  }
+  section.module.parallax {
+	padding-top: 125px;
+	padding-right: 0;
+	padding-bottom: 125px;
+	padding-left: 0;
+  }
+  section.module.parallax h1 {
+    font-size: 35px;
+  }
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+	font-size: 35px;
+	text-transform: none;
+	color: #FFFFFF;
+  }
+}
+
+
+
+
+
+
+h3 {
+    color: #004652;
+    font-family: 'MiloOT_gdi' !important;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 120%;
+}
